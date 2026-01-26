@@ -1,7 +1,7 @@
 def print_days(i, days_until_harvest):
     if i > days_until_harvest:
         return
-    print("Day", i)
+    print(f"Day {i}")
     print_days(i + 1, days_until_harvest)
 
 
